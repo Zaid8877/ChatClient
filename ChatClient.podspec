@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "/Volumes/os-x/Users/zaidtayyab/Documents/ChatClient/ChatClient", :tag => "#{s.version}" }
+  s.source       = { :git => "/Volumes/os-x/Users/zaidtayyab/Documents/ChatClient/ChatClient.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{swift}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "ChatClient/**/*.{swift,h,m}"
+  s.exclude_files = "ChatClient/Exclude"
 
-  # s.public_header_files = "Classes/**/*.swift"
+  # s.public_header_files = "ChatClient/*/.{swift,h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
