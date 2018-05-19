@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "/Volumes/os-x/Users/zaidtayyab/Documents/ChatClient/ChatClient.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Zaid8877/ChatClient.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
